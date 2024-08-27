@@ -1,0 +1,1267 @@
+8 27, 2024 11:33:02 午後 org.apache.karaf.main.Main launch
+情報: Installing and starting initial bundles
+8 27, 2024 11:33:02 午後 org.apache.karaf.main.Main launch
+情報: All initial bundles installed and set to start
+8 27, 2024 11:33:02 午後 org.apache.karaf.main.lock.SimpleFileLock lock
+情報: Trying to lock /Users/ynitta/Documents/sandbox/osgi-sandbox/karaf/apache-karaf-4.4.6/lock
+8 27, 2024 11:33:02 午後 org.apache.karaf.main.lock.SimpleFileLock lock
+情報: Lock acquired
+8 27, 2024 11:33:02 午後 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+情報: Lock acquired. Setting startlevel to 100
+2024-08-27T23:33:04,583 | INFO  | CM Configuration Updater (Update: pid=org.ops4j.pax.logging) | EventAdminConfigurationNotifier  | 5 - org.ops4j.pax.logging.pax-logging-log4j2 - 2.2.7 | Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+2024-08-27T23:33:05,531 | INFO  | activator-1-thread-2 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 | Adding features: package/[4.4.6,4.4.6],bundle/[4.4.6,4.4.6],feature/[4.4.6,4.4.6],deployer/[4.4.6,4.4.6],diagnostic/[4.4.6,4.4.6],ssh/[4.4.6,4.4.6],framework/[4.4.6,4.4.6],kar/[4.4.6,4.4.6],management/[4.4.6,4.4.6],eventadmin/[4.4.6,4.4.6],log/[4.4.6,4.4.6],config/[4.4.6,4.4.6],shell/[4.4.6,4.4.6],instance/[4.4.6,4.4.6],jaas/[4.4.6,4.4.6],wrap/[2.6.14,2.6.14],system/[4.4.6,4.4.6],service/[4.4.6,4.4.6]
+2024-08-27T23:33:06,266 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 | Changes to perform:
+2024-08-27T23:33:06,268 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   Region: root
+2024-08-27T23:33:06,273 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |     Bundles to install:
+2024-08-27T23:33:06,274 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.bouncycastle/bcpkix-jdk18on/1.77
+2024-08-27T23:33:06,274 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.bouncycastle/bcprov-jdk18on/1.77
+2024-08-27T23:33:06,275 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.bouncycastle/bcutil-jdk18on/1.77
+2024-08-27T23:33:06,275 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.aries.jmx/org.apache.aries.jmx.api/1.1.5
+2024-08-27T23:33:06,275 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.aries.jmx/org.apache.aries.jmx.core/1.1.8
+2024-08-27T23:33:06,276 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.aries.jmx/org.apache.aries.jmx.whiteboard/1.2.0
+2024-08-27T23:33:06,277 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.aries/org.apache.aries.util/1.1.3
+2024-08-27T23:33:06,278 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:33:06,279 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.config/org.apache.karaf.config.command/4.4.6
+2024-08-27T23:33:06,279 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.features/4.4.6
+2024-08-27T23:33:06,280 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:33:06,282 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.wrap/4.4.6
+2024-08-27T23:33:06,282 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.diagnostic/org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:33:06,283 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf/org.apache.karaf.event/4.4.6
+2024-08-27T23:33:06,283 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.features/org.apache.karaf.features.command/4.4.6
+2024-08-27T23:33:06,283 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.instance/org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:33:06,284 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:33:06,285 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/4.4.6
+2024-08-27T23:33:06,286 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/4.4.6
+2024-08-27T23:33:06,287 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.kar/org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:33:06,289 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.log/org.apache.karaf.log.core/4.4.6
+2024-08-27T23:33:06,289 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.management/org.apache.karaf.management.server/4.4.6
+2024-08-27T23:33:06,289 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.package/org.apache.karaf.package.core/4.4.6
+2024-08-27T23:33:06,291 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.service/org.apache.karaf.service.core/4.4.6
+2024-08-27T23:33:06,291 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:33:06,293 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.4.6
+2024-08-27T23:33:06,293 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.shell/org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:33:06,294 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.karaf.system/org.apache.karaf.system.core/4.4.6
+2024-08-27T23:33:06,295 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.sshd/sshd-osgi/2.12.1
+2024-08-27T23:33:06,295 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.sshd/sshd-scp/2.12.1
+2024-08-27T23:33:06,297 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.apache.sshd/sshd-sftp/2.12.1
+2024-08-27T23:33:06,298 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.jline/jline/3.21.0
+2024-08-27T23:33:06,299 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |       mvn:org.ops4j.pax.url/pax-url-wrap/2.6.14/jar/uber
+2024-08-27T23:33:06,316 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 | Installing bundles:
+2024-08-27T23:33:06,318 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.bouncycastle/bcpkix-jdk18on/1.77
+2024-08-27T23:33:06,384 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.bouncycastle/bcprov-jdk18on/1.77
+2024-08-27T23:33:06,448 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.bouncycastle/bcutil-jdk18on/1.77
+2024-08-27T23:33:06,461 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.aries.jmx/org.apache.aries.jmx.api/1.1.5
+2024-08-27T23:33:06,470 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.aries.jmx/org.apache.aries.jmx.core/1.1.8
+2024-08-27T23:33:06,482 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.aries.jmx/org.apache.aries.jmx.whiteboard/1.2.0
+2024-08-27T23:33:06,510 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.aries/org.apache.aries.util/1.1.3
+2024-08-27T23:33:06,549 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:33:06,562 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.config/org.apache.karaf.config.command/4.4.6
+2024-08-27T23:33:06,569 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.features/4.4.6
+2024-08-27T23:33:06,580 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:33:06,591 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.wrap/4.4.6
+2024-08-27T23:33:06,596 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.diagnostic/org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:33:06,644 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf/org.apache.karaf.event/4.4.6
+2024-08-27T23:33:06,649 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.features/org.apache.karaf.features.command/4.4.6
+2024-08-27T23:33:06,652 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.instance/org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:33:06,665 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:33:06,672 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/4.4.6
+2024-08-27T23:33:06,677 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/4.4.6
+2024-08-27T23:33:06,687 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.kar/org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:33:06,695 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.log/org.apache.karaf.log.core/4.4.6
+2024-08-27T23:33:06,701 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.management/org.apache.karaf.management.server/4.4.6
+2024-08-27T23:33:06,704 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.package/org.apache.karaf.package.core/4.4.6
+2024-08-27T23:33:06,712 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.service/org.apache.karaf.service.core/4.4.6
+2024-08-27T23:33:06,717 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:33:06,722 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/4.4.6
+2024-08-27T23:33:06,731 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.shell/org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:33:06,738 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.karaf.system/org.apache.karaf.system.core/4.4.6
+2024-08-27T23:33:06,745 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.sshd/sshd-osgi/2.12.1
+2024-08-27T23:33:06,764 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.sshd/sshd-scp/2.12.1
+2024-08-27T23:33:06,780 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.apache.sshd/sshd-sftp/2.12.1
+2024-08-27T23:33:06,797 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.jline/jline/3.21.0
+2024-08-27T23:33:06,814 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   mvn:org.ops4j.pax.url/pax-url-wrap/2.6.14/jar/uber
+2024-08-27T23:33:07,177 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 | Starting bundles:
+2024-08-27T23:33:07,187 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.ops4j.pax.url.wrap/2.6.14
+2024-08-27T23:33:07,215 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.aries.util/1.1.3
+2024-08-27T23:33:07,219 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:33:07,243 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.deployer.wrap/4.4.6
+2024-08-27T23:33:07,264 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.deployer.features/4.4.6
+2024-08-27T23:33:07,300 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   bcprov/1.77.0
+2024-08-27T23:33:07,308 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   bcutil/1.77.0
+2024-08-27T23:33:07,314 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   bcpkix/1.77.0
+2024-08-27T23:33:07,318 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.sshd.osgi/2.12.1
+2024-08-27T23:33:07,321 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.sshd.scp/2.12.1
+2024-08-27T23:33:07,325 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.sshd.sftp/2.12.1
+2024-08-27T23:33:07,329 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.jline/3.21.0
+2024-08-27T23:33:07,333 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.shell.core/4.4.6
+2024-08-27T23:33:07,591 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:33:08,253 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.log.core/4.4.6
+2024-08-27T23:33:08,461 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.log.core/4.4.6
+2024-08-27T23:33:08,484 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.features.command/4.4.6
+2024-08-27T23:33:08,819 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.features.command/4.4.6
+2024-08-27T23:33:08,823 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:33:09,028 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:33:09,038 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:33:09,288 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:33:09,291 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.aries.jmx.whiteboard/1.2.0
+2024-08-27T23:33:09,302 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:33:09,324 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:33:09,325 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.aries.jmx.api/1.1.5
+2024-08-27T23:33:09,332 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.aries.jmx.core/1.1.8
+2024-08-27T23:33:09,346 | INFO  | features-3-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Starting JMX OSGi agent
+2024-08-27T23:33:09,392 | INFO  | features-3-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4] for service with service.id [16]
+2024-08-27T23:33:09,398 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:33:09,452 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:33:09,454 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:33:09,493 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:33:09,497 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:33:09,500 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.package.core/4.4.6
+2024-08-27T23:33:09,516 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.package.core/4.4.6
+2024-08-27T23:33:09,516 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.jaas.config/4.4.6
+2024-08-27T23:33:09,532 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.management.server/4.4.6
+2024-08-27T23:33:09,551 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.config.command/4.4.6
+2024-08-27T23:33:09,553 | INFO  | activator-1-thread-1 | Activator                        | 41 - org.apache.karaf.management.server - 4.4.6 | Setting java.rmi.server.hostname system property to 127.0.0.1
+2024-08-27T23:33:09,580 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.config.command/4.4.6
+2024-08-27T23:33:09,719 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:33:09,723 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:33:09,727 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:33:09,764 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:33:09,773 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:33:09,775 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:33:09,833 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.jaas.modules/4.4.6
+2024-08-27T23:33:09,912 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:33:09,949 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:33:09,954 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:33:09,960 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:33:09,975 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.system.core/4.4.6
+2024-08-27T23:33:10,034 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.system.core/4.4.6
+2024-08-27T23:33:10,038 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.service.core/4.4.6
+2024-08-27T23:33:10,049 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.service.core/4.4.6
+2024-08-27T23:33:10,050 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:33:10,089 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.4.6. Missing service: [org.apache.sshd.server.SshServer]
+2024-08-27T23:33:10,093 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 |   org.apache.karaf.event/4.4.6
+2024-08-27T23:33:10,101 | INFO  | features-3-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.event/4.4.6
+2024-08-27T23:33:10,107 | INFO  | features-3-thread-1 | Activator                        | 29 - org.apache.karaf.deployer.features - 4.4.6 | Deployment finished. Registering FeatureDeploymentListener
+2024-08-27T23:33:10,180 | INFO  | features-3-thread-1 | FeaturesServiceImpl              | 19 - org.apache.karaf.features.core - 4.4.6 | Done.
+2024-08-27T23:33:10,224 | INFO  | activator-1-thread-1 | BouncyCastleSecurityProviderRegistrar | 48 - org.apache.sshd.osgi - 2.12.1 | getOrCreateProvider(BC) created instance of org.bouncycastle.jce.provider.BouncyCastleProvider
+2024-08-27T23:33:10,486 | INFO  | activator-1-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:33:10,497 | INFO  | activator-1-thread-1 | DefaultIoServiceFactoryFactory   | 48 - org.apache.sshd.osgi - 2.12.1 | No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+2024-08-27T23:37:32,984 | WARN  | pipe-bundle:install mvn:com.baeldung/osgi-intro-sample-activator/1.0-SNAPSHOT | AetherBasedResolver              | 3 - org.ops4j.pax.url.mvn - 2.6.14 | Error resolving artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT: [Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/), Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)]
+java.io.IOException: Error resolving artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT: [Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/), Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.configureIOException(AetherBasedResolver.java:803) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:774) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) [!/:?]
+	at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.karaf.bundle.command.Install.execute(Install.java:84) [!/:?]
+	at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) [!/:4.4.6]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) [!/:4.4.6]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) [!/:4.4.6]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/)
+		at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[!/:?]
+		at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) [!/:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) [!/:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) [!/:4.4.6]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)
+		at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[!/:?]
+		at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) [!/:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) [!/:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) [!/:4.4.6]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+Caused by: shaded.org.eclipse.aether.resolution.ArtifactResolutionException: Error resolving artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT
+	at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:431) ~[?:?]
+	at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+	at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+	at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+	... 28 more
+2024-08-27T23:37:33,029 | ERROR | Karaf local console user karaf | ShellUtil                        | 45 - org.apache.karaf.shell.core - 4.4.6 | Exception caught while executing command
+org.apache.karaf.shell.support.MultiException: Error installing bundles:
+	Unable to install bundle mvn:com.baeldung/osgi-intro-sample-activator/1.0-SNAPSHOT: org.osgi.framework.BundleException: Unable to cache bundle: mvn:com.baeldung/osgi-intro-sample-activator/1.0-SNAPSHOT
+	at org.apache.karaf.shell.support.MultiException.throwIf(MultiException.java:61) ~[?:?]
+	at org.apache.karaf.bundle.command.Install.execute(Install.java:142) ~[?:?]
+	at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: java.lang.Exception: Unable to install bundle mvn:com.baeldung/osgi-intro-sample-activator/1.0-SNAPSHOT: org.osgi.framework.BundleException: Unable to cache bundle: mvn:com.baeldung/osgi-intro-sample-activator/1.0-SNAPSHOT
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:109) ~[?:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Caused by: org.osgi.framework.BundleException: Unable to cache bundle: mvn:com.baeldung/osgi-intro-sample-activator/1.0-SNAPSHOT
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3258) ~[?:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+		... 13 more
+	Caused by: java.io.IOException: Error resolving artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT: [Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/), Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.configureIOException(AetherBasedResolver.java:803) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:774) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+		... 13 more
+		Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/)
+			at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[?:?]
+			at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+			at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+			at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+			at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+			at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+			at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+			at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+			at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+			at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+		Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)
+			at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[?:?]
+			at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+			at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+			at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+			at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+			at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+			at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+			at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+			at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+			at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Caused by: shaded.org.eclipse.aether.resolution.ArtifactResolutionException: Error resolving artifact com.baeldung:osgi-intro-sample-activator:jar:1.0-SNAPSHOT
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:431) ~[?:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+		... 13 more
+2024-08-27T23:38:07,729 | INFO  | pipe-logout      | LogoutAction                     | 44 - org.apache.karaf.shell.commands - 4.4.6 | Disconnecting from current session...
+2024-08-27T23:38:07,759 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.event/4.4.6
+2024-08-27T23:38:07,779 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.system.core/4.4.6
+2024-08-27T23:38:07,792 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:38:07,854 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.log.core/4.4.6
+2024-08-27T23:38:07,856 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:38:07,858 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.features.command/4.4.6
+2024-08-27T23:38:07,859 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.package.core/4.4.6
+2024-08-27T23:38:07,860 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:38:07,861 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:38:07,862 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.config.command/4.4.6
+2024-08-27T23:38:07,870 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:38:07,871 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:38:07,872 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:38:07,873 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.service.core/4.4.6
+2024-08-27T23:38:07,874 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:38:07,903 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:38:07,904 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:38:07,904 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:38:07,905 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:38:07,907 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:38:07,908 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@723b83a9 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4
+2024-08-27T23:38:07,914 | WARN  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2024-08-27T23:38:07,979 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Stopping JMX OSGi agent
+2024-08-27T23:38:07,981 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=c82ca8d8-5b5c-4f89-ad9c-b4a2dc91cef4] for service with service.id [16]
+8 27, 2024 11:38:38 午後 org.apache.karaf.main.lock.SimpleFileLock lock
+情報: Trying to lock /Users/ynitta/Documents/sandbox/osgi-sandbox/karaf/apache-karaf-4.4.6/lock
+8 27, 2024 11:38:38 午後 org.apache.karaf.main.lock.SimpleFileLock lock
+情報: Lock acquired
+8 27, 2024 11:38:38 午後 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+情報: Lock acquired. Setting startlevel to 100
+2024-08-27T23:38:39,978 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.ops4j.pax.logging]) | EventAdminConfigurationNotifier  | 5 - org.ops4j.pax.logging.pax-logging-log4j2 - 2.2.7 | Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+2024-08-27T23:38:39,978 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:38:40,010 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.config.command/4.4.6
+2024-08-27T23:38:40,033 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@8e453d4 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,037 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@8e453d4 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,040 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@8e453d4 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,041 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@8e453d4 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,043 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@8e453d4 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,047 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@8e453d4 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,054 | WARN  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2024-08-27T23:38:40,068 | WARN  | activator-1-thread-2 | Activator                        | 41 - org.apache.karaf.management.server - 4.4.6 | java.rmi.server.hostname system property is already set to 127.0.0.1. Apache Karaf doesn't override it
+2024-08-27T23:38:40,091 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,092 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,092 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,094 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,097 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,097 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:38:40,108 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:38:40,111 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:38:40,136 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.features.command/4.4.6. Missing service: [org.apache.karaf.features.FeaturesService]
+2024-08-27T23:38:40,161 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:38:40,185 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:38:40,190 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:38:40,193 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:38:40,199 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.kar.core/4.4.6. Missing service: [org.apache.karaf.kar.KarService]
+2024-08-27T23:38:40,203 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.log.core/4.4.6
+2024-08-27T23:38:40,206 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.package.core/4.4.6
+2024-08-27T23:38:40,208 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.service.core/4.4.6
+2024-08-27T23:38:40,248 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:38:40,250 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:38:40,764 | INFO  | activator-1-thread-2 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.features.command/4.4.6
+2024-08-27T23:38:40,768 | INFO  | activator-1-thread-3 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:38:40,771 | INFO  | activator-1-thread-2 | Activator                        | 29 - org.apache.karaf.deployer.features - 4.4.6 | Deployment finished. Registering FeatureDeploymentListener
+2024-08-27T23:38:41,126 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.4.6. Missing service: [org.apache.sshd.server.SshServer]
+2024-08-27T23:38:41,184 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.system.core/4.4.6
+2024-08-27T23:38:41,278 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.event/4.4.6
+2024-08-27T23:38:41,355 | INFO  | activator-1-thread-1 | BouncyCastleSecurityProviderRegistrar | 48 - org.apache.sshd.osgi - 2.12.1 | getOrCreateProvider(BC) created instance of org.bouncycastle.jce.provider.BouncyCastleProvider
+2024-08-27T23:38:41,742 | INFO  | activator-1-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:38:41,761 | INFO  | activator-1-thread-1 | DefaultIoServiceFactoryFactory   | 48 - org.apache.sshd.osgi - 2.12.1 | No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+2024-08-27T23:39:20,793 | WARN  | pipe-bundle:install mvn:com.example/my-osgi-app/1.0-SNAPSHOT | AetherBasedResolver              | 3 - org.ops4j.pax.url.mvn - 2.6.14 | Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT: [Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/), Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)]
+java.io.IOException: Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT: [Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/), Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.configureIOException(AetherBasedResolver.java:803) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:774) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) [!/:?]
+	at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.karaf.bundle.command.Install.execute(Install.java:84) [!/:?]
+	at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) [!/:4.4.6]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) [!/:4.4.6]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) [!/:4.4.6]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/)
+		at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[!/:?]
+		at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) [!/:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) [!/:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) [!/:4.4.6]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)
+		at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[!/:?]
+		at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) [!/:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) [!/:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) [!/:4.4.6]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+Caused by: shaded.org.eclipse.aether.resolution.ArtifactResolutionException: Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT
+	at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:431) ~[?:?]
+	at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+	at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+	at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+	... 28 more
+2024-08-27T23:39:20,840 | ERROR | Karaf local console user karaf | ShellUtil                        | 45 - org.apache.karaf.shell.core - 4.4.6 | Exception caught while executing command
+org.apache.karaf.shell.support.MultiException: Error installing bundles:
+	Unable to install bundle mvn:com.example/my-osgi-app/1.0-SNAPSHOT: org.osgi.framework.BundleException: Unable to cache bundle: mvn:com.example/my-osgi-app/1.0-SNAPSHOT
+	at org.apache.karaf.shell.support.MultiException.throwIf(MultiException.java:61) ~[?:?]
+	at org.apache.karaf.bundle.command.Install.execute(Install.java:142) ~[?:?]
+	at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: java.lang.Exception: Unable to install bundle mvn:com.example/my-osgi-app/1.0-SNAPSHOT: org.osgi.framework.BundleException: Unable to cache bundle: mvn:com.example/my-osgi-app/1.0-SNAPSHOT
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:109) ~[?:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Caused by: org.osgi.framework.BundleException: Unable to cache bundle: mvn:com.example/my-osgi-app/1.0-SNAPSHOT
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3258) ~[?:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+		... 13 more
+	Caused by: java.io.IOException: Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT: [Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/), Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.configureIOException(AetherBasedResolver.java:803) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:774) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+		... 13 more
+		Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/)
+			at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[?:?]
+			at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+			at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+			at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+			at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+			at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+			at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+			at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+			at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+			at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+		Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)
+			at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[?:?]
+			at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+			at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+			at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+			at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+			at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+			at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+			at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+			at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+			at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Caused by: shaded.org.eclipse.aether.resolution.ArtifactResolutionException: Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:431) ~[?:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+		... 13 more
+2024-08-27T23:39:48,575 | INFO  | pipe-logout      | LogoutAction                     | 44 - org.apache.karaf.shell.commands - 4.4.6 | Disconnecting from current session...
+2024-08-27T23:39:48,606 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.event/4.4.6
+2024-08-27T23:39:48,636 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.system.core/4.4.6
+2024-08-27T23:39:48,645 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:39:48,731 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.log.core/4.4.6
+2024-08-27T23:39:48,734 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.features.command/4.4.6
+2024-08-27T23:39:48,736 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:39:48,739 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.service.core/4.4.6
+2024-08-27T23:39:48,740 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:39:48,742 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.config.command/4.4.6
+2024-08-27T23:39:48,748 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:39:48,749 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:39:48,752 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:39:48,753 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:39:48,753 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:39:48,754 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.package.core/4.4.6
+2024-08-27T23:39:48,775 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:39:48,778 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:39:48,779 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:39:48,780 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:39:48,780 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:39:48,780 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@1e8434ad with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938
+2024-08-27T23:39:48,783 | WARN  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2024-08-27T23:39:48,847 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Stopping JMX OSGi agent
+2024-08-27T23:39:48,848 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=06e1ec26-ef85-4c96-ad6f-e85fc79a3938] for service with service.id [17]
+8 27, 2024 11:43:40 午後 org.apache.karaf.main.lock.SimpleFileLock lock
+情報: Trying to lock /Users/ynitta/Documents/sandbox/osgi-sandbox/karaf/apache-karaf-4.4.6/lock
+8 27, 2024 11:43:40 午後 org.apache.karaf.main.lock.SimpleFileLock lock
+情報: Lock acquired
+8 27, 2024 11:43:40 午後 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+情報: Lock acquired. Setting startlevel to 100
+2024-08-27T23:43:42,082 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.config.command/4.4.6
+2024-08-27T23:43:42,082 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.ops4j.pax.logging]) | EventAdminConfigurationNotifier  | 5 - org.ops4j.pax.logging.pax-logging-log4j2 - 2.2.7 | Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+2024-08-27T23:43:42,128 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2e60b28f with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,130 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2e60b28f with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,130 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2e60b28f with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,133 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2e60b28f with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,135 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2e60b28f with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,135 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@2e60b28f with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,137 | WARN  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2024-08-27T23:43:42,157 | WARN  | activator-1-thread-2 | Activator                        | 41 - org.apache.karaf.management.server - 4.4.6 | java.rmi.server.hostname system property is already set to 127.0.0.1. Apache Karaf doesn't override it
+2024-08-27T23:43:42,180 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:43:42,183 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:43:42,191 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,192 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,192 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,192 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,199 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,200 | INFO  | activator-1-thread-2 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:43:42,208 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.features.command/4.4.6. Missing service: [org.apache.karaf.features.FeaturesService]
+2024-08-27T23:43:42,233 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:43:42,251 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:43:42,254 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:43:42,255 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:43:42,266 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.kar.core/4.4.6. Missing service: [org.apache.karaf.kar.KarService]
+2024-08-27T23:43:42,273 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.log.core/4.4.6
+2024-08-27T23:43:42,276 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.package.core/4.4.6
+2024-08-27T23:43:42,279 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.service.core/4.4.6
+2024-08-27T23:43:42,291 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:43:42,293 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:43:42,871 | INFO  | activator-1-thread-3 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:43:42,871 | INFO  | activator-1-thread-2 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.features.command/4.4.6
+2024-08-27T23:43:42,871 | INFO  | activator-1-thread-2 | Activator                        | 29 - org.apache.karaf.deployer.features - 4.4.6 | Deployment finished. Registering FeatureDeploymentListener
+2024-08-27T23:43:43,098 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.4.6. Missing service: [org.apache.sshd.server.SshServer]
+2024-08-27T23:43:43,146 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.system.core/4.4.6
+2024-08-27T23:43:43,189 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.event/4.4.6
+2024-08-27T23:43:43,295 | INFO  | activator-1-thread-1 | BouncyCastleSecurityProviderRegistrar | 48 - org.apache.sshd.osgi - 2.12.1 | getOrCreateProvider(BC) created instance of org.bouncycastle.jce.provider.BouncyCastleProvider
+2024-08-27T23:43:43,708 | INFO  | activator-1-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:43:43,740 | INFO  | activator-1-thread-1 | DefaultIoServiceFactoryFactory   | 48 - org.apache.sshd.osgi - 2.12.1 | No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+2024-08-27T23:43:49,401 | WARN  | pipe-bundle:install mvn:com.example/my-osgi-app/1.0-SNAPSHOT | AetherBasedResolver              | 3 - org.ops4j.pax.url.mvn - 2.6.14 | Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT: [Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/), Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)]
+java.io.IOException: Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT: [Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/), Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.configureIOException(AetherBasedResolver.java:803) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:774) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) [!/:?]
+	at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) [!/:?]
+	at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) [org.apache.felix.framework-7.0.5.jar:?]
+	at org.apache.karaf.bundle.command.Install.execute(Install.java:84) [!/:?]
+	at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) [!/:4.4.6]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) [!/:4.4.6]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) [!/:4.4.6]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) [!/:4.4.6]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/)
+		at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[!/:?]
+		at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) [!/:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) [!/:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) [!/:4.4.6]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)
+		at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[!/:?]
+		at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[!/:?]
+		at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[!/:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) [!/:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) [!/:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) [org.apache.felix.framework-7.0.5.jar:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) [!/:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) [!/:4.4.6]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) [!/:4.4.6]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) [!/:4.4.6]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+Caused by: shaded.org.eclipse.aether.resolution.ArtifactResolutionException: Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT
+	at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:431) ~[?:?]
+	at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+	at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+	at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+	at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+	... 28 more
+2024-08-27T23:43:49,456 | ERROR | Karaf local console user karaf | ShellUtil                        | 45 - org.apache.karaf.shell.core - 4.4.6 | Exception caught while executing command
+org.apache.karaf.shell.support.MultiException: Error installing bundles:
+	Unable to install bundle mvn:com.example/my-osgi-app/1.0-SNAPSHOT: org.osgi.framework.BundleException: Unable to cache bundle: mvn:com.example/my-osgi-app/1.0-SNAPSHOT
+	at org.apache.karaf.shell.support.MultiException.throwIf(MultiException.java:61) ~[?:?]
+	at org.apache.karaf.bundle.command.Install.execute(Install.java:142) ~[?:?]
+	at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: java.lang.Exception: Unable to install bundle mvn:com.example/my-osgi-app/1.0-SNAPSHOT: org.osgi.framework.BundleException: Unable to cache bundle: mvn:com.example/my-osgi-app/1.0-SNAPSHOT
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:109) ~[?:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Caused by: org.osgi.framework.BundleException: Unable to cache bundle: mvn:com.example/my-osgi-app/1.0-SNAPSHOT
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3258) ~[?:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+		... 13 more
+	Caused by: java.io.IOException: Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT: [Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/), Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.configureIOException(AetherBasedResolver.java:803) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:774) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+		... 13 more
+		Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in apache (https://repository.apache.org/content/groups/snapshots-group/)
+			at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[?:?]
+			at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+			at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+			at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+			at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+			at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+			at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+			at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+			at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+			at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+		Suppressed: shaded.org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT in ops4j.sonatype.snapshots.deploy (https://oss.sonatype.org/content/repositories/ops4j-snapshots/)
+			at shaded.org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:401) ~[?:?]
+			at shaded.org.eclipse.aether.util.concurrency.RunnableErrorForwarder.lambda$wrap$0(RunnableErrorForwarder.java:73) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:669) ~[?:?]
+			at shaded.org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:290) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:408) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+			at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+			at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+			at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+			at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+			at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+			at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+			at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+			at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+			at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+			at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+			at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+			at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+			at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+			at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+			at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Caused by: shaded.org.eclipse.aether.resolution.ArtifactResolutionException: Error resolving artifact com.example:my-osgi-app:jar:1.0-SNAPSHOT
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:431) ~[?:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:235) ~[?:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:212) ~[?:?]
+		at shaded.org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:272) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:767) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:657) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:598) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:565) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.AetherBasedResolver.resolve(AetherBasedResolver.java:555) ~[?:?]
+		at org.ops4j.pax.url.mvn.internal.Connection.getInputStream(Connection.java:123) ~[?:?]
+		at org.apache.felix.framework.util.SecureAction.getURLConnectionInputStream(SecureAction.java:677) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.initialize(JarRevision.java:166) ~[?:?]
+		at org.apache.felix.framework.cache.JarRevision.<init>(JarRevision.java:76) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.createRevisionFromLocation(BundleArchive.java:819) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.reviseInternal(BundleArchive.java:491) ~[?:?]
+		at org.apache.felix.framework.cache.BundleArchive.<init>(BundleArchive.java:155) ~[?:?]
+		at org.apache.felix.framework.cache.BundleCache.create(BundleCache.java:457) ~[?:?]
+		at org.apache.felix.framework.Felix.installBundle(Felix.java:3254) ~[?:?]
+		at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147) ~[?:?]
+		at org.apache.karaf.bundle.command.Install.execute(Install.java:84) ~[?:?]
+		... 13 more
+2024-08-27T23:44:50,881 | INFO  | pipe-logout      | LogoutAction                     | 44 - org.apache.karaf.shell.commands - 4.4.6 | Disconnecting from current session...
+2024-08-27T23:44:50,906 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.event/4.4.6
+2024-08-27T23:44:50,935 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.system.core/4.4.6
+2024-08-27T23:44:50,952 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:44:50,982 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:44:50,983 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.features.command/4.4.6
+2024-08-27T23:44:50,983 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.config.command/4.4.6
+2024-08-27T23:44:50,991 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:44:50,991 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:44:50,992 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:44:50,993 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.service.core/4.4.6
+2024-08-27T23:44:50,993 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.log.core/4.4.6
+2024-08-27T23:44:50,993 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:44:50,993 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:44:50,994 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.package.core/4.4.6
+2024-08-27T23:44:50,994 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:44:51,007 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:44:51,008 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:44:51,008 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:44:51,010 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:44:51,010 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:44:51,010 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@57218861 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373
+2024-08-27T23:44:51,011 | WARN  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2024-08-27T23:44:51,062 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Stopping JMX OSGi agent
+2024-08-27T23:44:51,063 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=bfa8d2cb-de81-4154-b229-466ed6a50373] for service with service.id [17]
+8 27, 2024 11:45:02 午後 org.apache.karaf.main.lock.SimpleFileLock lock
+情報: Trying to lock /Users/ynitta/Documents/sandbox/osgi-sandbox/karaf/apache-karaf-4.4.6/lock
+8 27, 2024 11:45:02 午後 org.apache.karaf.main.lock.SimpleFileLock lock
+情報: Lock acquired
+8 27, 2024 11:45:02 午後 org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+情報: Lock acquired. Setting startlevel to 100
+2024-08-27T23:45:03,273 | INFO  | CM Configuration Updater (ManagedService Update: pid=[org.ops4j.pax.logging]) | EventAdminConfigurationNotifier  | 5 - org.ops4j.pax.logging.pax-logging-log4j2 - 2.2.7 | Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+2024-08-27T23:45:03,406 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Starting JMX OSGi agent
+2024-08-27T23:45:03,436 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb] for service with service.id [17]
+2024-08-27T23:45:03,713 | INFO  | activator-1-thread-1 | Activator                        | 41 - org.apache.karaf.management.server - 4.4.6 | Setting java.rmi.server.hostname system property to 127.0.0.1
+2024-08-27T23:45:03,944 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:45:03,973 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.config.command/4.4.6
+2024-08-27T23:45:04,001 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,003 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,007 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,010 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,013 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,018 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,036 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,037 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,039 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,041 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,046 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,048 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@e68db5e with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,055 | WARN  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2024-08-27T23:45:04,074 | WARN  | activator-1-thread-1 | Activator                        | 41 - org.apache.karaf.management.server - 4.4.6 | java.rmi.server.hostname system property is already set to 127.0.0.1. Apache Karaf doesn't override it
+2024-08-27T23:45:04,093 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,094 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,095 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,095 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,096 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,103 | INFO  | activator-1-thread-1 | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Registering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:45:04,121 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:45:04,125 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:45:04,148 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.features.command/4.4.6. Missing service: [org.apache.karaf.features.FeaturesService]
+2024-08-27T23:45:04,172 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:45:04,191 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:45:04,194 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:45:04,199 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:45:04,209 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.kar.core/4.4.6. Missing service: [org.apache.karaf.kar.KarService]
+2024-08-27T23:45:04,214 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.log.core/4.4.6
+2024-08-27T23:45:04,216 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.package.core/4.4.6
+2024-08-27T23:45:04,219 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.service.core/4.4.6
+2024-08-27T23:45:04,234 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:45:04,235 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Updating commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:45:04,824 | INFO  | activator-1-thread-2 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.features.command/4.4.6
+2024-08-27T23:45:04,823 | INFO  | activator-1-thread-3 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:45:04,834 | INFO  | activator-1-thread-2 | Activator                        | 29 - org.apache.karaf.deployer.features - 4.4.6 | Deployment finished. Registering FeatureDeploymentListener
+2024-08-27T23:45:04,977 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Command registration delayed for bundle org.apache.karaf.shell.ssh/4.4.6. Missing service: [org.apache.sshd.server.SshServer]
+2024-08-27T23:45:05,159 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.system.core/4.4.6
+2024-08-27T23:45:05,202 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.event/4.4.6
+2024-08-27T23:45:05,201 | INFO  | activator-1-thread-1 | BouncyCastleSecurityProviderRegistrar | 48 - org.apache.sshd.osgi - 2.12.1 | getOrCreateProvider(BC) created instance of org.bouncycastle.jce.provider.BouncyCastleProvider
+2024-08-27T23:45:05,633 | INFO  | activator-1-thread-1 | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Registering commands for bundle org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:45:05,682 | INFO  | activator-1-thread-1 | DefaultIoServiceFactoryFactory   | 48 - org.apache.sshd.osgi - 2.12.1 | No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+2024-08-27T23:45:33,516 | ERROR | Karaf local console user karaf | ShellUtil                        | 45 - org.apache.karaf.shell.core - 4.4.6 | Exception caught while executing command
+org.apache.karaf.shell.support.MultiException: Error executing command on bundles:
+	Error starting bundle 56: Unable to resolve com.example.my-osgi-app [56](R 56.0): missing requirement [com.example.my-osgi-app [56](R 56.0)] osgi.ee; (osgi.ee=UNKNOWN) Unresolved requirements: [[com.example.my-osgi-app [56](R 56.0)] osgi.ee; (osgi.ee=UNKNOWN)]
+	at org.apache.karaf.shell.support.MultiException.throwIf(MultiException.java:61) ~[?:?]
+	at org.apache.karaf.bundle.command.BundlesCommand.doExecute(BundlesCommand.java:70) ~[?:?]
+	at org.apache.karaf.bundle.command.BundlesCommand.execute(BundlesCommand.java:55) ~[?:?]
+	at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+	at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+	at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+	at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Suppressed: java.lang.Exception: Error starting bundle 56: Unable to resolve com.example.my-osgi-app [56](R 56.0): missing requirement [com.example.my-osgi-app [56](R 56.0)] osgi.ee; (osgi.ee=UNKNOWN) Unresolved requirements: [[com.example.my-osgi-app [56](R 56.0)] osgi.ee; (osgi.ee=UNKNOWN)]
+		at org.apache.karaf.bundle.command.BundlesCommand.doExecute(BundlesCommand.java:67) ~[?:?]
+		at org.apache.karaf.bundle.command.BundlesCommand.execute(BundlesCommand.java:55) ~[?:?]
+		at org.apache.karaf.shell.impl.action.command.ActionCommand.execute(ActionCommand.java:88) ~[?:?]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:68) ~[?:?]
+		at org.apache.karaf.shell.impl.console.osgi.secured.SecuredCommand.execute(SecuredCommand.java:86) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.executeCmd(Closure.java:599) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.executeStatement(Closure.java:526) ~[?:?]
+		at org.apache.felix.gogo.runtime.Closure.execute(Closure.java:415) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.doCall(Pipe.java:416) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:229) ~[?:?]
+		at org.apache.felix.gogo.runtime.Pipe.call(Pipe.java:59) ~[?:?]
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_345]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_345]
+		at java.lang.Thread.run(Thread.java:750) [?:1.8.0_345]
+	Caused by: org.osgi.framework.BundleException: Unable to resolve com.example.my-osgi-app [56](R 56.0): missing requirement [com.example.my-osgi-app [56](R 56.0)] osgi.ee; (osgi.ee=UNKNOWN) Unresolved requirements: [[com.example.my-osgi-app [56](R 56.0)] osgi.ee; (osgi.ee=UNKNOWN)]
+		at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4398) ~[?:?]
+		at org.apache.felix.framework.Felix.startBundle(Felix.java:2308) ~[?:?]
+		at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:1006) ~[?:?]
+		at org.apache.karaf.bundle.command.Start.executeOnBundle(Start.java:38) ~[?:?]
+		at org.apache.karaf.bundle.command.BundlesCommand.doExecute(BundlesCommand.java:65) ~[?:?]
+		... 14 more
+2024-08-27T23:46:06,558 | INFO  | pipe-logout      | LogoutAction                     | 44 - org.apache.karaf.shell.commands - 4.4.6 | Disconnecting from current session...
+2024-08-27T23:46:06,585 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.event/4.4.6
+2024-08-27T23:46:06,605 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.system.core/4.4.6
+2024-08-27T23:46:06,620 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.shell.ssh/4.4.6
+2024-08-27T23:46:06,660 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.deployer.kar/4.4.6
+2024-08-27T23:46:06,661 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.config.command/4.4.6
+2024-08-27T23:46:06,665 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.diagnostic.core/4.4.6
+2024-08-27T23:46:06,666 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.service.core/4.4.6
+2024-08-27T23:46:06,666 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.jaas.command/4.4.6
+2024-08-27T23:46:06,666 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.shell.commands/4.4.6
+2024-08-27T23:46:06,667 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.kar.core/4.4.6
+2024-08-27T23:46:06,668 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.instance.core/4.4.6
+2024-08-27T23:46:06,669 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.package.core/4.4.6
+2024-08-27T23:46:06,670 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.features.command/4.4.6
+2024-08-27T23:46:06,670 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.log.core/4.4.6
+2024-08-27T23:46:06,671 | INFO  | FelixStartLevel  | CommandExtension                 | 45 - org.apache.karaf.shell.core - 4.4.6 | Unregistering commands for bundle org.apache.karaf.bundle.core/4.4.6
+2024-08-27T23:46:06,689 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.service.cm.ConfigurationAdminMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:46:06,690 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.PackageStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=packageState,version=1.5,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:46:06,690 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.FrameworkMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=framework,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:46:06,690 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.wiring.BundleWiringStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=wiringState,version=1.1,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:46:06,691 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.ServiceStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=serviceState,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:46:06,692 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering org.osgi.jmx.framework.BundleStateMBean to MBeanServer org.apache.karaf.management.internal.EventAdminMBeanServerWrapper@7b1fe390 with name osgi.core:type=bundleState,version=1.7,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb
+2024-08-27T23:46:06,696 | WARN  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Task rejected for JMX Notification dispatch of event [org.osgi.framework.ServiceEvent[source=[javax.management.MBeanServer]]] - Dispatcher may have been shutdown
+2024-08-27T23:46:06,747 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Stopping JMX OSGi agent
+2024-08-27T23:46:06,748 | INFO  | FelixStartLevel  | core                             | 24 - org.apache.aries.jmx.core - 1.1.8 | Unregistering MBean with ObjectName [osgi.compendium:service=cm,version=1.3,framework=org.apache.felix.framework,uuid=ecb19dc6-c83a-453d-a688-2e10e8431dfb] for service with service.id [17]
