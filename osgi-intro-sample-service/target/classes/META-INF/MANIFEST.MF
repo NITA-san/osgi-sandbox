@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1725159379658
+Build-Jdk-Spec: 11
+Bundle-Activator: com.baeldung.osgi.sample.service.implementation.Greete
+ rImpl
+Bundle-ManifestVersion: 2
+Bundle-Name: osgi-intro-sample-service
+Bundle-SymbolicName: com.baeldung.osgi-intro-sample-service
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: com.baeldung.osgi.sample.service.definition;version="1.0
+ .0.SNAPSHOT"
+Import-Package: com.baeldung.osgi.sample.service.definition,java.io,java
+ .lang,java.lang.invoke,java.util,org.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Tool: Bnd-6.3.1.202206071316
